@@ -1,53 +1,71 @@
-body{
-    background-color: #914814;
-    font-size: larger;
-    font-family: Arial;
-    
-}
-
-.inicio{
-    background-color: chocolate;
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .inicio,
+  .loja {
+    background-color: #363636;
     margin: 10%;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center; /* Adicionado para centralizar o conteúdo */
+  }
+  
+  .loja {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-}
-
-.loja{
-    background-color: chocolate;
-    margin: 10%;
-    padding: 20px;
+  }
+  
+  .produto {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .produto > div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.loja fieldset{
+    margin-right: 10px;
+  }
+  
+  .loja p {
+    margin: 0 10px;
+  }
+  
+  .loja button {
+    background-color: #ffaa00;
+    color: #1f1f1f;
+    margin-top: 10px;
+    padding: 10px 20px;
     border: none;
-    display: flex;
-}
-
-.loja p{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.loja button{
-    background-color: gold;
-    margin-left: 130px;
-    margin-right: 130px;
-    border: 5px solid goldenrod;
-}
-
-button{
-    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loja button:hover {
+    background-color: #ffcc33;
+    color: #1f1f1f;
+  }
+  
+  button {
+    background-color: #009933;
     font-size: larger;
-    color: white;
-    border-radius: 15%;
-    border: 5px solid rgb(0, 75, 0);
-
-}
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00cc44;
+  }
+  
